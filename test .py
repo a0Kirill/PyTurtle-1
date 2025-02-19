@@ -20,7 +20,7 @@ turtle.colormode(255)
 #angle2=100
 
 colorg = 0
-lenstep = 10
+lenstep = 20
 R = 0
 G = 0
 B = 0
@@ -316,7 +316,7 @@ iterations=20
 angle = 15
 RF.append([name,axiom,rules,iterations,angle])
 
-name=" Фрактал 1"
+name=" Фрактальное дерево"
 
 t.left(90)
 axiom = "F"
@@ -325,11 +325,11 @@ iterations = 3 # TOP, 15
 angle = 22
 RF.append([name,axiom,rules,iterations,angle])
 
-name=" Фрактал 2"
+name=" Шестиугольная мозайка"
 
 axiom = "X"
 rules = [["F","F"],["X","[-F+F[Y]+F][+F-F[X]-F]"],["Y","[-F+F[Y+F][+F-F-F]]"]]
-iterations = 100 # TOP, 15
+iterations = 10 # TOP, 15
 angle = 60
 RF.append([name,axiom,rules,iterations,angle])
 
